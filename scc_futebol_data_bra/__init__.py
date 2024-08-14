@@ -1,0 +1,4 @@
+from scc_futebol_data_bra._1_download_arquivo.football_data_download import get_data_download
+from scc_futebol_data_bra._2_processa_dado.interface import get_data_process
+from scc_futebol_data_bra._3_salva_no_bd.bd_apply import commit_data
+from scc_futebol_data_bra.run_all import run_all
